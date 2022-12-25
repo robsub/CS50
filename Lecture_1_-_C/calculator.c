@@ -109,5 +109,7 @@ I should be able to provide a new message (as opposed to initial commit) and hav
 
 Here is the process:
 1) Make changes (like this change lol)
-2) 
+2) git add . && git commit -m "NEW COMMIT NOTE HERE"
+3) git push
+Bingo! sweet. djn
 */
