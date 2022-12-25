@@ -1,6 +1,8 @@
 #include <cs50.h> // Had issues with this not being recognized https://github.com/cs50/libcs50/issues/189  (will use clang instead of make)
 #include <stdio.h>
 
+// make calculator.c does not work use clang hello.c -o hello -lcs50 instead (see below) 
+
 int main(void)
 {
     int x = get_int("x: "); // prompt the user for two variables, x and y
