@@ -1,7 +1,16 @@
 #include <cs50.h> // Had issues with this not being recognized https://github.com/cs50/libcs50/issues/189  (will use clang instead of make)
 #include <stdio.h>
 
-// make calculator.c does not work use clang hello.c -o hello -lcs50 instead (see below) 
+// -  make calculator.c does not work use clang instead 'clang hello.c -o hello -lcs50' instead (see below) 
+
+/* ➜  Lecture_1_-_C git:(development) ✗ make calculator
+cc     calculator.c   -o calculator
+Undefined symbols for architecture arm64:
+  "_get_int", referenced from:
+      _main in calculator-7bad2a.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [calculator] Error 1*/
 
 int main(void)
 {
