@@ -106,4 +106,8 @@ So what do I do?
 /* Mission is to change stuff and have it sync with github. how do I do this? 
 Try this https://docs.gitbook.com/getting-started/git-sync/enabling-github-sync
 I should be able to provide a new message (as opposed to initial commit) and have the new message appear on https://github.com/robsub/cs50
+
+Here is the process:
+1) Make changes (like this change lol)
+2) 
 */
