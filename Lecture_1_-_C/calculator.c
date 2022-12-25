@@ -85,3 +85,25 @@ y: 2000000000
 
 // we could still have a value that’s too large, which is a general problem we’ll discuss again later.
 }
+
+
+// NEXT STEPS: I thought I could simply change and then follow steps but I dont wanna create another repo
+/*
+➜  cs50 git:(main) gh repo create
+? What would you like to do? Push an existing local repository to GitHub
+? Path to local repository .
+? Repository name cs50
+? Description cs50
+? Visibility Public
+GraphQL: Name already exists on this account (createRepository)
+
+
+So what do I do?
+
+
+Try this? https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub
+
+https://cli.github.com/manual/
+*/
+
+// dsfdsjkb
