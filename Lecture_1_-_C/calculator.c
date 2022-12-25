@@ -1,4 +1,4 @@
-#include <cs50.h> // Had issues with this not being recognized https://github.com/cs50/libcs50/issues/189  (will use clang instead of make)
+#include <cs50.h> // Had issues with this not being recognized - I had to download the library see https://github.com/cs50/libcs50/issues/189  (will use clang instead of make)
 #include <stdio.h>
 
 // -  make calculator.c does not work use clang instead 'clang hello.c -o hello -lcs50' instead (see below) 
@@ -88,6 +88,22 @@ We can change our program to store and display the result as a long, with more b
  printf("%i\n", x + y);
 
 /*
+
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // Prompt user for x
+    long x = get_long("x: ");
+
+    // Prompt user for y
+    long y = get_long("y: ");
+
+    // Perform addition
+    printf("%li\n", x + y);
+}
+
 ➜  Lecture_1_-_C git:(main) ✗ ./calculator
 x: 2000000000
 y: 2000000000
