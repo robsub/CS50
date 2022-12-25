@@ -87,7 +87,7 @@ y: 2000000000
 }
 
 
-// NEXT STEPS: I thought I could simply change and then follow steps but I dont wanna create another repo
+// I thought I could simply change and then follow steps but I dont wanna create another repo
 /*
 ➜  cs50 git:(main) gh repo create
 ? What would you like to do? Push an existing local repository to GitHub
@@ -99,11 +99,11 @@ GraphQL: Name already exists on this account (createRepository)
 
 
 So what do I do?
-
-
-Try this? https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub
-
-https://cli.github.com/manual/
 */
 
-// dsfdsjkb
+
+// Next step:
+/* Mission is to change stuff and have it sync with github. how do I do this? 
+Try this https://docs.gitbook.com/getting-started/git-sync/enabling-github-sync
+I should be able to provide a new message (as opposed to initial commit) and have the new message appear on https://github.com/robsub/cs50
+*/
