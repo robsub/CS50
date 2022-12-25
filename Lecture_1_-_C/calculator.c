@@ -111,5 +111,5 @@ Here is the process:
 1) Make changes (like this change lol)
 2) git add . && git commit -m "NEW COMMIT NOTE HERE"
 3) git push
-Bingo! sweet. djn
+Bingo! sweet. This syncs with an existing repo on github. 
 */
